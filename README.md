@@ -10,6 +10,7 @@
 ### Description of the project
 
 The program is a chat with servers. When the programme is launched, one can log in or register, when a user who does not have the admin role logs in, he will be redirected to the selection of chat servers. If the user logging in has the admin role then he will be redirected to a command space where he can enter and use commands to administer the servers, users and chat.
+Small note, for the first connection, you have to manually set the admin role to your account to be able to access the moderation control panel.
 
 ### Used languages ?
 
