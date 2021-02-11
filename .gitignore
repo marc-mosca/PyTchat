@@ -127,3 +127,4 @@ dmypy.json
 .gitattributes
 .gitignore
 .sqlite3
+database.sqlite3
