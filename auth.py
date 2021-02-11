@@ -49,6 +49,3 @@ class Authentification:
             if self.database.isAdminRequest(connection_user_email)[0] == 0: self.tchat.server(database_user_informations[0][1], connection_user_email)
             else: self.admin.menu(database_user_informations[0][1], connection_user_email)
         else: self.system.exitProgram('Vous ne pouvez pas rejoindre car vous avez été banni.')
-
-    def cryptage(self):
-        return 0
