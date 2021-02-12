@@ -1,5 +1,6 @@
 # PyTchat
  A chat program with servers, a login system and administrative controls.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
 
 ### Contents: 
 - Description of the project
@@ -25,5 +26,3 @@ Small note, for the first connection, you have to manually set the admin role to
 + CREATE TABLE "users" ("id"	INTEGER NOT NULL UNIQUE, "username"	TEXT, "email"	TEXT NOT NULL, "password"	TEXT, "admin"	INTEGER NOT NULL, "mute"	INTEGER NOT NULL, "ban"	INTEGER NOT NULL, PRIMARY KEY("id" AUTOINCREMENT));
 + CREATE TABLE "tchat_server" ("id"	INTEGER NOT NULL UNIQUE, "name"	TEXT UNIQUE, "password"	TEXT, "mute"	INTEGER NOT NULL, PRIMARY KEY("id" AUTOINCREMENT));
 + CREATE TABLE "tchat_message" ("id"	INTEGER NOT NULL UNIQUE,	"email"	TEXT,	"username"	TEXT,	"date"	NUMERIC,	"message"	TEXT,	"server_name"	TEXT,	PRIMARY KEY("id" AUTOINCREMENT));
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
